@@ -7,8 +7,9 @@
 	    {{! Page Meta }}
 	    <title>{{meta_title}}</title>
 			{{! Styles }}
-	    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,300,700' rel='stylesheet' type='text/css'>
-			<link href='//fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Work+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
 			<link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 			<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
 			<link rel="stylesheet" type="text/css" href="{{asset '/styles/crisp.css'}}">
@@ -35,7 +36,7 @@
 			{{{body}}}
 		</main>
 		<footer id="footer">
-			<section id="footer-message">&copy; {{date format='YYYY'}} {{@site.title}}. All rights reserved. Powered by <a href="http://ghost.org" target="_blank">Ghost</a>. <a href="https://github.com/kathyqian/crisp" target="_blank">Crisp</a> theme by <a href="http://kathyqian.com" target="_blank">Kathy Qian</a>.</section>
+			<section id="footer-message">&copy; {{date format='YYYY'}} Patrick B. Gibson. All rights reserved.</section>
 		</footer>
 	{{ghost_foot}}
 	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>

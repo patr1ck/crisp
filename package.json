@@ -1,7 +1,7 @@
 {
-    "name"        : "crisp",
+    "name"        : "crisp-pg",
     "description" : "A minimalist, responsive, and open-source theme for Ghost",
-    "version"     : "1.0.0",
+    "version"     : "1.0.1",
     "engines": {
         "ghost-api": "v4"
     },
@@ -34,6 +34,6 @@
     "bugs": "https://github.com/kathyqian/crisp/issues",
     "contributors": "https://github.com/kathyqian/crisp/graphs/contributors",
     "config": {
-        "posts_per_page": 10
+        "posts_per_page": 100
     }
 }

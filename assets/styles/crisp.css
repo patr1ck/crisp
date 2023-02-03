@@ -6,8 +6,8 @@
 html, body {
 	font-size: 1em;
 	line-height: 1.65em;
-	font-family: "Open Sans", sans-serif;
-	font-weight: 300;
+	font-family: "Work Sans", sans-serif;
+	font-weight: 400;
     background: #fff;
 	color: #444;
 }
@@ -50,7 +50,7 @@ p, hr, h4, h5, h6 {
 }
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Bree Serif", serif;
+	font-family: "Libre Baskerville", serif;
 	font-weight: 400 !important;
 }
 h1 {
@@ -87,7 +87,7 @@ img, iframe {
 a {
 	font-weight:700;
 	text-decoration:none;
-	color: #5cc265; /* Change Link Color */
+	color: var(--ghost-accent-color); /* Change Link Color */
 }
 a:hover {
 	text-decoration:underline;
@@ -200,7 +200,7 @@ h3.post-title {
 	padding:0.3em 0.6em 0.3em 0.6em;
 	vertical-align:20%;  
 	font-size:0.5em;
-	font-family: "Open Sans", sans-serif;
+	font-family: "Work Sans", sans-serif;
 	font-weight: 700 !important;
 	text-transform:uppercase;
 	letter-spacing:0.05em;
@@ -380,11 +380,21 @@ footer a:hover {
 .kg-image-card,
 .kg-gallery-card {
     margin: 0 0 1.5em;
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.kg-image {
+	height: auto;
 }
 
 .kg-image-card figcaption,
 .kg-gallery-card figcaption {
-    margin: -1.0em 0 1.5em;
+    margin: .5em 0 1.5em;
+	font-size: 0.8em;
+	text-align: center;
+	background: #eee;
 }
 
 .kg-gallery-container {
